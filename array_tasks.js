@@ -58,8 +58,8 @@ var arrayTasks = {
 		// let reducer = function(curr, next){return curr + next;}
 		// return squaredEvens.reduce(reducer, 0);
 
-		var squaredEvens = this.square(evensArray);
-		return this.sum(squaredEvens);
+		return this.sum(this.square(evensArray));
+
 
 	}
 
